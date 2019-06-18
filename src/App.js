@@ -10,6 +10,7 @@ class App extends React.Component{
     return(
           <div>
               <h1> Universal Recipes </h1>
+
               <img src={foodrecipe} alt=""/>
 
             </div>
