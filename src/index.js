@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Link,  Switch  } from 'react-router-dom'
 import Blog from './Blog';
 import FoodRecipe from './FoodRecipe';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 
