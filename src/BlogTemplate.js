@@ -1,19 +1,19 @@
-import React from 'react';
+import React from "react";
 
-function BlogTemplate(props){
-  console.log('aslfjkhsdlkf');
-   console.log(props);
+function BlogTemplate(props) {
+  console.log("test");
+  console.log(props);
 
-   return (
-      <div>
-          <label>Title:{props.title}</label>
-          <br></br>
-          <label>Description:{props.description}</label>
-          <br></br>
-          <label>Author:{props.author}</label>
-          <br></br>
-          </div>
-        )
+  return (
+    <div>
+      <label>Title:{props.title}</label>
+      <br />
+      <label>Description:{props.description}</label>
+      <br />
+      <label>Author:{props.author}</label>
+      <br />
+    </div>
+  );
 }
 
 export default BlogTemplate;
