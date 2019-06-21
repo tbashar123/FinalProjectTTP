@@ -12,6 +12,7 @@ class App extends React.Component{
     return(
           <div>
               <h1> Universal Recipes </h1>
+               <p text="bold">Hey</p>
 
 <section class="fog">
 <div class="absolute-bg"></div>

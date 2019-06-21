@@ -1,18 +1,39 @@
 import React from 'react';
 
 function BlogTemplate(props){
-  console.log('aslfjkhsdlkf');
+
    console.log(props);
 
    return (
       <div>
-          <label>Title:{props.title}</label>
-          <br></br>
-          <label>Description:{props.description}</label>
-          <br></br>
-          <label>Author:{props.author}</label>
-          <br></br>
+
+      
+
+          <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Title:</th>
+      <th scope="col">Description:</th>
+      <th scope="col">Author:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>{props.title}</td>
+      <td>{props.description}</td>
+      <td>{props.author}</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
           </div>
+
+
+
         )
 }
 

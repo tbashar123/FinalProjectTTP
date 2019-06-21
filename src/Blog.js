@@ -5,7 +5,10 @@ import Form from './Form'
 class Blog extends React.Component {
   render() {
       return (
-        <div className="container">
+        <div className="container " style={{
+          background:'orange',
+          width:'1000'}}>
+
           <div className="row pt-5">
           <div className="col-12 col-lg-6 offset-lg-3">
             <h1 className="text-center">BlogPost</h1>
@@ -13,6 +16,7 @@ class Blog extends React.Component {
       </div>
       <Form />
        </div>
+
      </div>
       );
 }
