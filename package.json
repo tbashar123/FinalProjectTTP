@@ -4,10 +4,16 @@
   "private": true,
   "dependencies": {
     "Router": "^2.1.0",
+    "axios": "^0.19.0",
+    "body": "^5.1.0",
     "bootstrap": "^4.3.1",
+    "client": "0.0.1",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "link": "^0.1.5",
     "node": "^12.4.0",
+    "nodemon": "^1.19.1",
+    "pg": "^7.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
@@ -25,6 +31,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies":{
+    "nodemon":"^1.19.1"
   },
   "browserslist": {
     "production": [
